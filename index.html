@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block In - Home Alone Adventure Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="snow" aria-hidden="true"></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="Block In logo">
+                <span>Block In</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gameplay">Gameplay</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🎄</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Block In</h1>
+            <p class="subtitle">Protect Your Holiday Home </p>
+            <p class="tagline">THE ICONIC LAUGHTER GROUP</p>
+            <img class="slogan-image" src="slogan.png" alt="Block In slogan">
+            <button class="cta-button" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Discover the Holiday Mode</button>
+        </div>
+        <div class="hero-image">
+            <div class="game-window"><img src="logo.png" alt=""></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Block In</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>The Story</h3>
+                    <p>
+                        Inspired by the iconic Home Alone movie, Block In puts you in the shoes of a homeowner defending 
+                        their house from intruders. Use your wits, strategy, and creative traps to protect what's yours!
+                    </p>
+                </div>
+                <div class="about-card">
+                    <h3>The Mission</h3>
+                    <p>
+                        Stack blocks strategically to create barriers and obstacles. Trap intruders and protect your home 
+                        through clever puzzle-solving and real-time strategy gameplay.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <h3>The Adventure</h3>
+                    <p>
+                        Experience exciting levels, each more challenging than the last. Face different enemy types and 
+                        discover new block combinations to unlock advanced defenses.
+                    </p>
+                </div>
+            </div>
+            <div class="team-section">
+                <h3>Meet the Team</h3>
+                <img class="members-image" src="members.png" alt="Group members">
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Video Section -->
+    <section id="promo" class="promo-video">
+        <div class="container">
+            <h2>Watch the Commercial</h2>
+            <p class="video-intro">See Block In in action with the official game trailer.</p>
+            <div class="video-wrapper">
+                <video controls poster="logo.png">
+                    <source src="capsule.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media" class="media-section">
+        <div class="container">
+            <h2>Flyer & Poster</h2>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="flyerr.png" alt="Block In flyer">
+                    <h3>Official Flyer</h3>
+                </div>
+                <div class="media-card">
+                    <img src="affiche.png" alt="Block In poster">
+                    <h3>Event Affiche</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gameplay Section -->
+    <section id="gameplay" class="gameplay">
+        <div class="container">
+            <h2>How to Play</h2>
+            <div class="gameplay-grid">
+                <div class="gameplay-card">
+                    <div class="card-number">1</div>
+                    <h3> Explore the Area</h3>
+                    <p>Move through the neighborhood</p>
+                </div>
+                <div class="gameplay-card">
+                    <div class="card-number">2</div>
+                    <h3>Avoid the Intruders</h3>
+                    <p>Watch out for burglars and stay out of their reach.</p>
+                </div>
+                <div class="gameplay-card">
+                    <div class="card-number">3</div>
+                    <h3>play puzzles and quizz
+                    </h3>
+                    <p>Solve puzzles by arranging the pieces correctly.
+                        Solve puzzles by arranging the pieces correctly.
+                    </p>
+                </div>
+                <div class="gameplay-card">
+                    <div class="card-number">4</div>
+                    <h3>Win Level</h3>
+                    <p>Survive all waves and protect your home to advance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <span class="feature-icon">�</span>
+                    <h3>Intuitive Controls</h3>
+                    <p>Easy-to-learn gameplay suitable for all ages</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🎁</span>
+                    <h3>Cartoon Graphics</h3>
+                    <p>Charming seasonal art with a cozy festive touch</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">❄️</span>
+                    <h3>Progressive Difficulty</h3>
+                    <p>Unlock new snowy levels and holiday challenges</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🌟</span>
+                    <h3>Real-Time Strategy</h3>
+                    <p>Think fast and react quickly to win the season</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🧤</span>
+                    <h3>Power-Ups</h3>
+                    <p>Use festive boosts like candy canes and snow traps</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🕯</span>
+                    <h3>Achievements</h3>
+                    <p>Collect holiday badges and decorate your home</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Ready to Defend Your Home?</h2>
+            <p>Block In is available on multiple platforms</p>
+            <div class="download-buttons">
+                <button class="download-btn windows">
+                    💻 Windows
+                </button>
+                <button class="download-btn mac">
+                    🍎 Mac
+                </button>
+                <button class="download-btn linux">
+                    🐧 Linux
+                </button>
+            </div>
+            <p class="coming-soon">Coming to Mobile Platforms Soon!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Block In</h4>
+                    <p>A 2D adventure game inspired by Home Alone</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gameplay">Gameplay</a></li>
+                        <li><a href="#features">Features</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/block_in_n?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="#">Discord</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Block In. All rights reserved. THE ICONIC LAUGHTER GROUP.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
